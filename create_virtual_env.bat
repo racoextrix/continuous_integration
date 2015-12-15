@@ -1,0 +1,1 @@
+if not exist %WORKON_HOME%\%1 mkvirtualenv %1
