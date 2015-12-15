@@ -1,0 +1,3 @@
+if not exist %USERPROFILE%\continuous_integration git clone https://github.com/racoextrix/continuous_integration.git 
+%WORKON_HOME%\raenv\Scripts\easy_install %USERPROFILE%\continuous_integration\mypypi\MySQL_python-1.2.5-py2.7-win32.egg
+%WORKON_HOME%\raenv\Scripts\pip install --no-index --find-links=%USERPROFILE%\continuous_integration\mypypi -r %USERPROFILE%\continuous_integration\requirements.txt
